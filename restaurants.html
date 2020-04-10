@@ -7,7 +7,6 @@
     <title>Delivery Food</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -23,9 +22,9 @@
                     <img src="images/Enter.svg" alt="user" class="button-icon">
                     <span class="button-text">Войти</span>
                 </button>
-                <button class="button" id="cart-button">
+                <button class="button">
                     <img src="images/shoping cart.svg" alt="shoping cart" class="button-icon">
-                    <span class="button-text">Корзина</span>
+                    <span class="button-text" id="cart-button">Корзина</span>
                 </button>
             </div>
         </header>
@@ -35,114 +34,130 @@
 
     <main class="main">
         <div class="container">
-            <section class="promo">
-                <h1 class="promo-title">Онлайн-сервис <br>доставки еды на дом</h1>
-                <p class="promo-text">
-                    Блюда из любимого ресторана привезет курьер в перчатках, маске и с антисептиком
-                </p>
-            </section>
-
             <sectiom class="restaurants">
                 <div class="section-heading">
-                    <h2 class="section-title">Рестораны</h2>
-                    <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
+                    <h2 class="section-title">PizzaBurger</h2>
+                    <div class="card-info">
+                        <div class="rating"><img src="images/rating.svg" alt="rating">
+                            3.9</div>
+                        <div class="price">От 600 ₽</div>
+                        <div class="category">Пицца</div>
+                    </div>
                 </div>
                 <div class="cards">
-                    <a href="restaurants.html" class="card wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card wow fadeInUp">
                         <img src="images/image_1.png" alt="Пицца плюс" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Пицца плюс</h3>
-                                <span class="card-tag tag">50 мин</span>
+                                <h3 class="card-title card-title-reg">Ролл угорь стандарт</h3>
                             </div>
                             <div class="card-info">
-                                <div class="rating"><img src="images/rating.svg" alt="rating">
-                                    4.5</div>
-                                <div class="price">От 900 ₽</div>
-                                <div class="category">Пицца</div>
+                                <div class="ingredients">Рис, угорь, соус унаги, кунжут, водоросли нори.</div>
+                            </div>
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="images/cart.svg" alt="shoping cart" class="card-button-image">
+                                </button>
+                                <strong class="card-price-bold">250 ₽</strong>
                             </div>
                         </div>
-                    </a>
+                    </div>
                     <!-- /.card -->
-                    <a href="restaurants.html" class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card wow fadeInUp">
                         <img src="images/image_2.png" alt="Пицца плюс" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Тануки</h3>
-                                <span class="card-tag tag">28 мин</span>
+                                <h3 class="card-title card-title-reg">Ролл угорь стандарт</h3>
                             </div>
                             <div class="card-info">
-                                <div class="rating"><img src="images/rating.svg" alt="rating">
-                                    3.3</div>
-                                <div class="price">От 500 ₽</div>
-                                <div class="category">Пицца</div>
+                                <div class="ingredients">Рис, угорь, соус унаги, кунжут, водоросли нори.</div>
+                            </div>
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="images/cart.svg" alt="shoping cart" class="card-button-image">
+                                </button>
+                                <strong class="card-price-bold">250 ₽</strong>
                             </div>
                         </div>
-                    </a>
+                    </div>
                     <!-- /.card -->
-                    <a href="restaurants.html" class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="card wow fadeInUp">
                         <img src="images/image_3.png" alt="Пицца плюс" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">FoodBand</h3>
-                                <span class="card-tag tag">43 мин</span>
+                                <h3 class="card-title card-title-reg">Ролл угорь стандарт</h3>
                             </div>
                             <div class="card-info">
-                                <div class="rating"><img src="images/rating.svg" alt="rating">
-                                    5.0</div>
-                                <div class="price">От 450 ₽</div>
-                                <div class="category">Пицца</div>
+                                <div class="ingredients">Рис, угорь, соус унаги, кунжут, водоросли нори.</div>
+                            </div>
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="images/cart.svg" alt="shoping cart" class="card-button-image">
+                                </button>
+                                <strong class="card-price-bold">250 ₽</strong>
                             </div>
                         </div>
-                    </a>
+                    </div>
                     <!-- /.card -->
-                    <a href="restaurants.html" class="card wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="card wow fadeInUp">
                         <img src="images/image_4.png" alt="Пицца плюс" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Жадина-пицца</h3>
-                                <span class="card-tag tag">25 мин</span>
+                                <h3 class="card-title card-title-reg">Ролл угорь стандарт</h3>
                             </div>
                             <div class="card-info">
-                                <div class="rating"><img src="images/rating.svg" alt="rating">
-                                    4.9</div>
-                                <div class="price">От 1100 ₽</div>
-                                <div class="category">Суши</div>
+                                <div class="ingredients">Рис, угорь, соус унаги, кунжут, водоросли нори.</div>
+                            </div>
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="images/cart.svg" alt="shoping cart" class="card-button-image">
+                                </button>
+                                <strong class="card-price-bold">250 ₽</strong>
                             </div>
                         </div>
-                    </a>
+                    </div>
                     <!-- /.card -->
-                    <a href="restaurants.html" class="card wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="card wow fadeInUp">
                         <img src="images/image_5.png" alt="Пицца плюс" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">Точка еды</h3>
-                                <span class="card-tag tag">45 мин</span>
+                                <h3 class="card-title card-title-reg">Ролл угорь стандарт</h3>
                             </div>
                             <div class="card-info">
-                                <div class="rating"><img src="images/rating.svg" alt="rating">
-                                    2.7</div>
-                                <div class="price">От 1500 ₽</div>
-                                <div class="category">Пицца</div>
+                                <div class="ingredients">Рис, угорь, соус унаги, кунжут, водоросли нори.</div>
+                            </div>
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="images/cart.svg" alt="shoping cart" class="card-button-image">
+                                </button>
+                                <strong class="card-price-bold">250 ₽</strong>
                             </div>
                         </div>
-                    </a>
+                    </div>
                     <!-- /.card -->
-                    <a href="restaurants.html" class="card wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="card wow fadeInUp">
                         <img src="images/image_6.png" alt="Пицца плюс" class="card-image">
                         <div class="card-text">
                             <div class="card-heading">
-                                <h3 class="card-title">PizzaBurger</h3>
-                                <span class="card-tag tag">30 мин</span>
+                                <h3 class="card-title card-title-reg">Ролл угорь стандарт</h3>
                             </div>
                             <div class="card-info">
-                                <div class="rating"><img src="images/rating.svg" alt="rating">
-                                    3.9</div>
-                                <div class="price">От 600 ₽</div>
-                                <div class="category">Пицца</div>
+                                <div class="ingredients">Рис, угорь, соус унаги, кунжут, водоросли нори.</div>
+                            </div>
+                            <div class="card-buttons">
+                                <button class="button button-primary">
+                                    <span class="button-card-text">В корзину</span>
+                                    <img src="images/cart.svg" alt="shoping cart" class="card-button-image">
+                                </button>
+                                <strong class="card-price-bold">250 ₽</strong>
                             </div>
                         </div>
-                    </a>
+                    </div>
                     <!-- /.card -->
                 </div>
                 <!-- /.cards -->
